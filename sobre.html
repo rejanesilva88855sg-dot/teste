@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Sobre</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre Mim | Portfólio</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+header {
+    background: linear-gradient(135deg, #222, #444);
+    color:#fff;
+    padding: 60px 20px;
+    text-align:center;
+}
+header h1 {
+    margin:0;
+    font-size: 40px;
+}
+section {
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+.card {
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.12);
+    margin-bottom:25px;
+}
+.card h2 {
+    margin-top:0;
+}
+a.button {
+    display:inline-block;
+    background:#111;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.2s;
+}
+a.button:hover {
+    opacity:0.8;
+}
+.footer {
+    text-align:center;
+    padding:20px;
+    background:#111;
+    color:#eee;
+    margin-top:40px;
+}
+</style>
 </head>
 <body>
-    <h1>Página Sobre</h1>
-    <p>Você está na segunda página.</p>
-    <a href="index.html">Voltar para a Página Inicial</a>
+
+<header>
+    <h1>Sobre Mim</h1>
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>Quem sou eu?</h2>
+        <p>Esta é apenas uma página de exemplo com um design limpo e profissional, criada para você testar no GitHub Pages.</p>
+    </div>
+
+    <div class="card">
+        <h2>Voltar</h2>
+        <p>Clique abaixo para retornar à página inicial.</p>
+        <a class="button" href="index.html">Voltar para Página Inicial</a>
+    </div>
+
+</section>
+
+<div class="footer">Portfólio Teste — Criado por ChatGPT</div>
+
 </body>
 </html>
