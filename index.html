@@ -1,13 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio | Página Inicial</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+header {
+    background: linear-gradient(135deg, #0d0d0d, #3b3b3b);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 44px;
+}
+header p {
+    font-size: 18px;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    margin-bottom: 30px;
+}
+.card h2 {
+    margin-top: 0;
+}
+a.button {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+a.button:hover {
+    opacity: 0.8;
+}
+.footer {
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:#fff;
+    margin-top:40px;
+}
+</style>
 </head>
 <body>
-    <h1>Bem-vindo à Página Inicial</h1>
-    <p>Clique abaixo para ir para a página Sobre:</p>
-    <a href="sobre.html">Ir para a Página Sobre</a>
+
+<header>
+    <h1>Meu Portfólio</h1>
+    <p>Bem-vindo à minha página inicial com design moderno e responsivo</p>
+</header>
+
+<section>
+
+    <div class="card">
+        <h2>Landing Page</h2>
+        <p>Esta é uma landing page de exemplo com um design profissional e simples.</p>
+    </div>
+
+    <div class="card">
+        <h2>Mais detalhes</h2>
+        <p>Clique abaixo para ver a página Sobre.</p>
+        <a class="button" href="sobre.html">Ir para Página Sobre</a>
+    </div>
+
+</section>
+
+<div class="footer">Portfólio Teste — Criado por ChatGPT</div>
+
 </body>
 </html>
